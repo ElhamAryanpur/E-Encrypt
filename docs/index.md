@@ -51,7 +51,26 @@
 ## ROLLBACK:
             use this if you want to bring back all the changes of a file to the version you initialized!
             `my_encryptor.roll_back(<salt>, <file that is versioned>, <name of database>, encrypt=<True if you did encrypt the database or False if you didn't!>`
-    
+
+## SERVERS WITH E-ENCRYPT:
+    You can now make servers/client connection and data transfer with E-Encrypt:
+
+## File Server:
+    A file server waits for a connection and sends a file to the connected client!
+    `my_encryptor.file_server(<host>, <port>, <file_to_send MUST BE IN THE SAME DIRECTORY>)`
+
+## File Client:
+    A file client is a client that will recieve the file from server!
+    `my_encryptor.file_client(<host>, <port>, <file_to_save MUST BE IN THE SAME DIRECTORY>)`
+
+## Chat Server:
+    A chat server allows you to host a chat!
+    `my_encryptor.chat_server(<host>, <port>)`
+
+## Chat Client:
+    A chat client allows you to connect to a chat server!
+    `my_encryptor.chat_client(<host>, <port>)`
+
 
 ## NOTE:
     encrypted objects are NOT byte objects! so you can deal with them just like regular
