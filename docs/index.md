@@ -1,5 +1,3 @@
-Encryptor is the new generation of SE (Steffan Encryptor)
-
 ## USAGE:
     Import it in your desired language (according to my knowledge, any
                                         language that can compile can use
