@@ -1,3 +1,6 @@
+## LEGENDS:
+    `` is used to show a code!
+
 ## USAGE:
     Import it in your desired language (according to my knowledge, any
                                         language that can compile can use
